@@ -23,17 +23,17 @@ import org.apache.ibatis.jdbc.ScriptRunner;
  */
 public class DataAccess {
 
-   // private static final String DBUSER = "user01";
-   private static final String DBUSER = "root";
+    private static final String DBUSER = "user01";
+   
+   public static final String DBNAME = DBUSER + "_test_java";
+   //public static final String DBNAME = "test_java";
 
-   //public static final String DBNAME = DBUSER + "_test_java";
-   public static final String DBNAME = "test_java";
-
-    //private static final String DBPASS = "user01";
-    private static final String DBPASS = "";
+    private static final String DBPASS = "user01";
+   // private static final String DBPASS = "";
 
    // private static final String DBHOST = "s-l-iglab-01.umons.ac.be";
-   private static final String DBHOST = "localhost";
+   //private static final String DBHOST = "localhost";
+      private static final String DBHOST = "webmaster.ig.umons.ac.be";
 
     private static final String DBSERVER = "mysql";
     private static final String DBPORT = "3306";
