@@ -249,7 +249,7 @@ public class ProfTest {
     public void testSelect_int() {
         System.out.println("Prof.Test.select_id");
         int id = 5;
-        System.out.println(Prof.select(id).toString());
+//        System.out.println(Prof.select(id).toString());
     }
 
 
